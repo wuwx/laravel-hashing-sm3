@@ -1,0 +1,28 @@
+{
+    "name": "wuwx/laravel-hashing-sm3",
+    "keywords": ["laravel", "hashing", "sm3", "hasher"],
+    "type": "library",
+    "require": {
+        "ch4o5/sm3-php": "^1.1",
+        "illuminate/support": "^5.6|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuwx\\LaravelHashingSm3\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wuwx\\LaravelHashingSm3\\Sm3ServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wuwx",
+            "email": "wuweixin@gmail.com"
+        }
+    ]
+}
